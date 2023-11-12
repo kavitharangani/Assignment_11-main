@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(176deg,rgb(243,130,239,100%),rgb(251,202,242,100%),white);
+    width: 100%;
+    height: content-box;
+    /*min-height: 100vh;*/
+    position: relative;
+}
+
+header{
+    width: 100vw;
+    height: 5vw;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#cartimg{
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+header>nav>ol{
+    list-style-type: none;
+    display:flex;
+}
+header>nav{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+header>nav>ol>li{
+    margin: 5px 50px;
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    bottom: 3px;
+}
+li>img{
+    height: 50px;
+    margin: 1px 10px;
+    position: relative;
+}
+li>button{
+    font-weight: bold;
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    background-color: white;
+}
+li>button>a{
+    color: black;
+    text-decoration: none;
+}

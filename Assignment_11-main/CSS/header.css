@@ -1,0 +1,49 @@
+.navbar-nav>a {
+    position: relative;
+    left: 336px;
+    color: white;
+    margin-right: 30px;
+}
+
+.navbar-nav img {
+    position: relative;
+    left: 310px;
+    width: 47px;
+    margin-right: -26px;
+}
+
+/*.rows{*/
+/*    !*position: absolute;*!*/
+/*    left: 100px;*/
+/*    border-radius: 12px;*/
+/*    width: 90%;*/
+/*    height: content-box;*/
+/*    display: flex;*/
+/*    margin: auto;*/
+/*}*/
+
+.navbar-nav .active {
+    font-weight: bold;
+}
+
+header>nav>.container-fluid>img {
+    margin-left: 9px;
+}
+
+.cus{
+    margin-left: 90px;
+}
+
+.item{
+    margin-left: 100px;
+}
+
+.order{
+    margin-left: 110px;
+}
+#current-date{
+    font-size: 22px;
+    position: absolute;
+    left: 679px;
+    font-family: monospace;
+}

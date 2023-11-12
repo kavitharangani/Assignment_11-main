@@ -1,0 +1,203 @@
+body{
+    background: linear-gradient(176deg,rgb(243,130,239,100%),rgb(251,202,242,100%),white);
+    overflow-x: hidden;
+    width: 100%;
+    height: content-box;
+    position: relative;
+}
+#section{
+    top: 24vh;
+    position: absolute;
+    left: 100px;
+    background: linear-gradient(176deg,rgb(217,217,217,100%),white);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    width: 90%;
+    height: content-box;
+    display: flex;
+}
+
+#order_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#orders_left_container , #orders_right_container {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 32px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    background: white;
+    width: 30%;
+    left: 10px;
+    padding: 10px;
+}
+
+#orders_right_container {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    /*border: 2px solid black;*/
+    padding: 0 31px;
+    border-radius: 32px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#right_container_top {
+    width: 100%;
+    height: 26%;
+
+
+}
+
+#right_container_bottom {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 50%;
+
+}
+
+.btns {
+    display: flex;
+    align-items: flex-end;
+    align-self: end;
+    width: 60%;
+    margin-left: 50px;
+    justify-content: space-around;
+
+}
+
+#customer_name{
+    font-family: "Times New Roman";
+    position: relative;
+    left: 60px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#btn_place_order {
+    position: relative;
+    align-self: flex-end;
+    right: 0;
+    height: 100%;
+
+}
+
+#orders_left_container >h1{
+    position: relative;
+    left: 70px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#right_container_top form {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 55%;
+    margin-left: 5px;
+}
+
+#right_container_top .form-group {
+    width: 30em;
+}
+
+
+#right_container_top .form-group .form-control h4 {
+    height: 60%;
+    border: 2px solid black;
+
+}
+
+h5 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    padding-right: 40px;
+}
+
+#btn_addtocart, #btn_remove {
+    margin-left: 10px;
+    color: white;
+    background-color: #0d6efd;
+}
+
+#addcart {
+    display: flex;
+    justify-content: right;
+
+}
+
+#addcart1 .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+#addcart1 #btns {
+    display: flex;
+    width: 45%;
+    justify-content: right;
+    align-content: space-between;
+}
+
+#right_container_bottom table th{
+    color: #fd7e12;
+}
+form>div>label{
+    font-family: "Times New Roman";
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#btn1{
+    position: relative;
+    left: -11px;
+    margin-left: 5px;
+}
+form>div>input {
+    position: relative;
+    left: -5px;
+    background: linear-gradient(176deg,rgb(217,217,217,100%),white);
+}
+#side{
+    position: absolute;
+    top: 24vh;
+    left: 140vh;
+}
+#current-date{
+    position: relative;
+    font-style: italic;
+    font-family: "BauerBodni Blk BT";
+    font-size: 20px
+}
+#total{
+    left: 24px;
+    font-size: 25px;
+    width: 276px;
+    color: #0a58ca;
+    border: none;
+    background: none;
+}
+#discount{
+    left: 24px;
+    font-size: 25px;
+    width: 100px;
+    color: purple;
+    border-radius: 25px;
+}
+#remaining{
+    font-size: 40px;
+    width: 370px;
+    color: red;
+    border: none;
+    background: none;
+}

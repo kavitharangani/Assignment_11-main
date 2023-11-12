@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(176deg,rgb(243,130,239,100%),rgb(251,202,242,100%),white);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    height: content-box;
+    /*overflow-y: hidden;*/
+    width: 100%;
+    /*aspect-ratio: 1/1;*/
+    position: relative;
+}
+
+.row{
+    /*position: absolute;*/
+    left: 100px;
+    background: linear-gradient(176deg,rgb(217,217,217,100%),white);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    width: 90%;
+    height: content-box;
+    /*display: flex;*/
+    margin: auto;
+}
+
+#data1{
+    position: relative;
+    box-shadow: -1px 1px 60px 10px black;
+    border-radius: 20px;
+    background: white;
+    left: 80px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: content-box;
+
+
+}
+
+#tabel1{
+    position: relative;
+    box-shadow: -1px 1px 60px 10px black;
+    border-radius: 20px;
+    background: white;
+    left: 120px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: content-box;
+
+}
+/*.row{*/
+/*    margin-top: 0;*/
+
+/*}*/
+.row {
+    margin-top: 16px;
+}
+
+
+form>div>label{
+    font-family: "Times New Roman";
+    position: relative;
+    left: 70px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+form>div>input{
+    position: relative;
+    left: 120px;
+    background: linear-gradient(176deg,rgb(217,217,217,100%),white);
+
+}
+
+.btn{
+    position: relative;
+    left: 50px;
+    margin-left: 10px;
+}
+
+#ta{
+    background: linear-gradient(176deg,rgb(181,171,241,100%),rgb(177,165,248,0%));
+    box-shadow: -1px 1px 60px 10px white;
+}
+#search{
+    position: absolute;
+    top:72px;
+    left: 450px;
+    display: flex;
+}
+.search_section #search_item{
+    width: 28vw;
+    height: fit-content;
+    position: absolute;
+}
+#search1{
+    position: absolute;
+    top: 10vh;
+    left: 65vh;
+}
+
+
+
+
